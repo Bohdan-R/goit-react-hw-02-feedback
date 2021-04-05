@@ -1,0 +1,22 @@
+@import '../../styles/shared.scss';
+
+.feedback {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.feedback__btn {
+    @extend %button;
+    padding: 7px 20px;
+
+    border-radius: 3px;
+
+    text-transform: capitalize;
+
+    transition: 250ms ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

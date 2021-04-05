@@ -1,0 +1,18 @@
+@import '../../styles/shared.scss';
+
+.sectoin {
+    width: 450px;
+    padding: 40px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, .5);
+}
+
+.title {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
